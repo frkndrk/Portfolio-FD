@@ -1,0 +1,8 @@
+@import "../../global.scss";
+
+.portfolioList{
+    &.active{
+        background-color: $mainColor;
+        color: white;
+    }
+}
