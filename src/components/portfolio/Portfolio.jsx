@@ -72,7 +72,7 @@ export default function Portfolio() {
           <PortfolioList 
             id={item.id}
             title={item.title}
-            active={selected == item.id}
+            active={selected === item.id}
             setSelected={setSelected}
           />
         ))}
